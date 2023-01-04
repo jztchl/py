@@ -12,7 +12,7 @@ else:
     bill_amount=(excess)+(600*0.5)
     
 if bill_amount<100:
-    print(bill_amount)
+    bill_amount=100
     
 if bill_amount>400:
     surcharge=(bill_amount/100)*15
