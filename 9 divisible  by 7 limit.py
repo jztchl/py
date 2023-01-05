@@ -1,7 +1,7 @@
 sum=0
 no=0
 i=100
-while I!=NULL
+while i!=NULL
     if i%7==0:
         sum+=i
         no+=1
